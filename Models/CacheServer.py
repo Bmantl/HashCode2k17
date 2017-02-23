@@ -5,3 +5,4 @@ class CacheServer:
         self.MAX_SIZE = MAX_SIZE
         self.endpoints = {}
         self.videos = []
+        self.remainingSpace = MAX_SIZE
